@@ -1,5 +1,5 @@
 Trim = function (x){ gsub("^\\s+|\\s+$", "", x)}
-library(plyr);library(XML);library(pipeR)
+library(plyr);library(XML);library(pipeR);library(reshape)
 ladies_bracket = data.frame()
 url1 = 'http://www.usopen.org/en_US/scores/draws/ws/r1s1.html'
 url2 = 'http://www.usopen.org/en_US/scores/draws/ws/r1s2.html'
@@ -14,7 +14,7 @@ tables4 = readHTMLTable(url4,header = F)
 for(i in 1:length(tables1)){
 	table = data.frame(tables1[i])
 	player = table[c(1,3),1]
-	match = 
+	match =
 		data.frame(player = player)
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
@@ -31,7 +31,7 @@ for(i in 1:length(tables1)){
 for(i in 1:length(tables2)){
 	table = data.frame(tables2[i])
 	player = table[c(1,3),1]
-	match = 
+	match =
 		data.frame(player = player)
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
@@ -39,7 +39,7 @@ for(i in 1:length(tables2)){
 	p$player = Trim(p$player)
 	p[,2:3] = apply(p[,2:3],2, function(x) Trim(gsub(pattern = '\\)|\\]','',x)))
 	p$match = i + 16
-	p$tour = WTA
+	p$tour = 'WTA'
 	p$round = 1
 	ladies_bracket = rbind.fill(ladies_bracket,p)
 }
@@ -48,7 +48,7 @@ for(i in 1:length(tables2)){
 for(i in 1:length(tables3)){
 	table = data.frame(tables3[i])
 	player = table[c(1,3),1]
-	match = 
+	match =
 		data.frame(player = player)
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
@@ -65,7 +65,7 @@ for(i in 1:length(tables3)){
 for(i in 1:length(tables4)){
 	table = data.frame(tables4[i])
 	player = table[c(1,3),1]
-	match = 
+	match =
 		data.frame(player = player)
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
@@ -78,7 +78,7 @@ for(i in 1:length(tables4)){
 	ladies_bracket = rbind.fill(ladies_bracket,p)
 }
 
-ladies_bracket$player_id = 
+ladies_bracket$player_id =
 	1:nrow(ladies_bracket)
 
 ladies_bracket[ladies_bracket$rank %in% '','rank'] = NA
