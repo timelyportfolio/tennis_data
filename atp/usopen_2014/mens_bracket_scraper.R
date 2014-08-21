@@ -1,3 +1,4 @@
+Trim = function (x){ gsub("^\\s+|\\s+$", "", x)}
 library(plyr);library(XML);library(pipeR)
 men_bracket = data.frame()
 url1 = 'http://www.usopen.org/en_US/scores/draws/ms/r1s1.html'
