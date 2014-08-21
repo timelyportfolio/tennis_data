@@ -18,9 +18,10 @@ for(i in 1:length(tables1)){
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
 	names(p)[1] = 'player'
+	p$player = Trim(p$player)
 	p[,2:3] = apply(p[,2:3],2, function(x) Trim(gsub(pattern = '\\)|\\]','',x)))
 	p$match = i
-	p$tour = WTA
+	p$tour = 'WTA'
 	p$round = 1
 	ladies_bracket = rbind.fill(ladies_bracket,p)
 }
@@ -34,6 +35,7 @@ for(i in 1:length(tables2)){
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
 	names(p)[1] = 'player'
+	p$player = Trim(p$player)
 	p[,2:3] = apply(p[,2:3],2, function(x) Trim(gsub(pattern = '\\)|\\]','',x)))
 	p$match = i + 16
 	p$tour = WTA
@@ -50,14 +52,15 @@ for(i in 1:length(tables3)){
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
 	names(p)[1] = 'player'
+	p$player = Trim(p$player)
 	p[,2:3] = apply(p[,2:3],2, function(x) Trim(gsub(pattern = '\\)|\\]','',x)))
 	p$match = i + 32
-	p$tour = WTA
+	p$tour = 'WTA'
 	p$round = 1
 	ladies_bracket = rbind.fill(ladies_bracket,p)
 }
 
-## URL 3
+## URL 4
 for(i in 1:length(tables4)){
 	table = data.frame(tables4[i])
 	player = table[c(1,3),1]
@@ -66,9 +69,10 @@ for(i in 1:length(tables4)){
 	p = colsplit(match$player,pattern = '\\(',c('player','country_code_rank'))
 	p = cbind(p$player,colsplit(p$country_code_rank,pattern = '\\[',c('country_code','rank')))
 	names(p)[1] = 'player'
+	p$player = Trim(p$player)
 	p[,2:3] = apply(p[,2:3],2, function(x) Trim(gsub(pattern = '\\)|\\]','',x)))
 	p$match = i + 48
-	p$tour = WTA
+	p$tour = 'WTA'
 	p$round = 1
 	ladies_bracket = rbind.fill(ladies_bracket,p)
 }
@@ -78,4 +82,5 @@ ladies_bracket$player_id =
 
 ladies_bracket[ladies_bracket$rank %in% '','rank'] = NA
 ladies_bracket$scrape_time = Sys.Date()
-write.csv(ladies_bracket,'us_open_atp_bracket.csv',row.names = F)
+setwd("~/Desktop/Github/tennis_data/wta/usopen_2014")
+write.csv(ladies_bracket,'us_open_wta_bracket.csv',row.names = F)
