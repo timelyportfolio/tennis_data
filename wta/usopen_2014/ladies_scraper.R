@@ -81,6 +81,7 @@ ladies_bracket$player_id =
 	1:nrow(ladies_bracket)
 
 ladies_bracket[ladies_bracket$rank %in% '','rank'] = NA
-ladies_bracket$scrape_time = Sys.Date()
+ladies_bracket[ladies_bracket$country_code %in% '','country_code'] = NA
+ladies_bracket$scrape_time = Sys.time()
 setwd("~/Desktop/Github/tennis_data/wta/usopen_2014")
 write.csv(ladies_bracket,'us_open_wta_bracket.csv',row.names = F)

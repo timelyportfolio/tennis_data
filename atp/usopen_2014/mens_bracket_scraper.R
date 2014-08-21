@@ -83,6 +83,6 @@ men_bracket$player_id =
 
 men_bracket[men_bracket$rank %in% '','rank'] = NA
 men_bracket[men_bracket$country_code %in% '','country_code'] = NA
-men_bracket$scrape_time = Sys.Date()
+men_bracket$scrape_time = Sys.time()
 setwd("~/Desktop/Github/tennis_data/atp/usopen_2014")
 write.csv(men_bracket,'us_open_atp_bracket.csv',row.names = F)
