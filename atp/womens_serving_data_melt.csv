@@ -1,0 +1,28 @@
+"event","item","draw","player","position","game_position","point","prior_point","games_total","game_win_pct","result","games_won","games_lost"
+"2013 US Open","Service Games Won","women's","Serena Williams","When up 15-0","up","15_0","W",44,0.909090909090909,"40 to 44",40,4
+"2013 US Open","Service Games Won","women's","Serena Williams","When up 30-0","up","30_0","W",27,0.962962962962963,"26 to 27",26,1
+"2013 US Open","Service Games Won","women's","Serena Williams","When down 0-15","down","0_15","L",16,0.875,"14 to 16",14,2
+"2013 US Open","Service Games Won","women's","Serena Williams","When down 0-30","down","0_30","L",4,0.75,"3 to 4",3,1
+"2013 US Open","Service Games Won","women's","Serena Williams","When down 0-40","down","0_40","L",0,0,"0 to 0",0,0
+"2013 US Open","Service Games Won","women's","Serena Williams","Won 30-30 point","tied","30_30","W",13,1,"13 to 13",13,0
+"2013 US Open","Service Games Won","women's","Serena Williams","Lost 30-30 point","tied","30_30","L",6,0.5,"3 to 6",3,3
+"2013 US Open","Service Games Won","women's","Serena Williams","Won Deuce point","up","Deuce","W",19,0.947368421052632,"18 to 19",18,1
+"2013 US Open","Service Games Won","women's","Serena Williams","Lost Deuce point","down","Deuce","L",4,0.75,"3 to 4",3,1
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","When up 15-0","up","15_0","W",50,0.74,"37 to 50",37,13
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","When up 30-0","up","30_0","W",26,0.846153846153846,"22 to 26",22,4
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","When down 0-15","down","0_15","L",26,0.5,"13 to 26",13,13
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","When down 0-30","down","0_30","L",12,0.25,"3 to 12",3,9
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","When down 0-40","down","0_40","L",5,0,"0 to 5",0,5
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","Won 30-30 point","tied","30_30","W",15,0.8,"12 to 15",12,3
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","Lost 30-30 point","tied","30_30","L",11,0.272727272727273,"3 to 11",3,8
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","Won Deuce point","up","Deuce","W",25,0.64,"16 to 25",16,9
+"2013 US Open","Service Games Won","women's","Victoria Azarenka","Lost Deuce point","down","Deuce","L",18,0.166666666666667,"3 to 18",3,15
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","When up 15-0","up","15_0","W",1419,0.7815362931642,"1109 to 1419",1109,310
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","When up 30-0","up","30_0","W",784,0.895408163265306,"702 to 784",702,82
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","When down 0-15","down","0_15","L",1127,0.449866903283052,"507 to 1127",507,620
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","When down 0-30","down","0_30","L",504,0.26984126984127,"136 to 504",136,368
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","When down 0-40","down","0_40","L",240,0.0791666666666667,"19 to 240",19,221
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","Won 30-30 point","tied","30_30","W",499,0.811623246492986,"405 to 499",405,94
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","Lost 30-30 point","tied","30_30","L",393,0.343511450381679,"135 to 393",135,258
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","Won Deuce point","up","Deuce","W",786,0.834605597964377,"656 to 786",656,130
+"2013 US Open","Service Games Won","women's","Women's Tournament Average","Lost Deuce point","down","Deuce","L",646,0.337461300309598,"218 to 646",218,428

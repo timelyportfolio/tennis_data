@@ -1,0 +1,37 @@
+"event","item","draw","player","position","game_position","point","prior_point","games_total","game_win_pct","result","games_won","games_lost"
+"2013 US Open","Service Games Won","men's","Novak Djokovic","When up 15-0","up","15_0","W",72,0.930555555555556,"67 to 72",67,5
+"2013 US Open","Service Games Won","men's","Novak Djokovic","When up 30-0","up","30_0","W",47,0.936170212765957,"44 to 47",44,3
+"2013 US Open","Service Games Won","men's","Novak Djokovic","When down 0-15","down","0_15","L",33,0.636363636363636,"21 to 33",21,12
+"2013 US Open","Service Games Won","men's","Novak Djokovic","When down 0-30","down","0_30","L",6,0,"0 to 6",0,6
+"2013 US Open","Service Games Won","men's","Novak Djokovic","When down 0-40","down","0_40","L",6,0,"0 to 6",0,6
+"2013 US Open","Service Games Won","men's","Novak Djokovic","Won 30-30 point","tied","30_30","W",19,0.894736842105263,"17 to 19",17,2
+"2013 US Open","Service Games Won","men's","Novak Djokovic","Lost 30-30 point","tied","30_30","L",11,0.363636363636364,"4 to 11",4,7
+"2013 US Open","Service Games Won","men's","Novak Djokovic","Won Deuce point","up","Deuce","W",12,0.916666666666667,"11 to 12",11,1
+"2013 US Open","Service Games Won","men's","Novak Djokovic","Lost Deuce point","down","Deuce","L",9,0.444444444444444,"4 to 9",4,5
+"2013 US Open","Service Games Won","men's","Rafael Nadal","When up 15-0","up","15_0","W",60,0.95,"57 to 60",57,3
+"2013 US Open","Service Games Won","men's","Rafael Nadal","When up 30-0","up","30_0","W",45,1,"45 to 45",45,0
+"2013 US Open","Service Games Won","men's","Rafael Nadal","When down 0-15","down","0_15","L",39,0.897435897435897,"35 to 39",35,4
+"2013 US Open","Service Games Won","men's","Rafael Nadal","When down 0-30","down","0_30","L",8,0.875,"7 to 8",7,1
+"2013 US Open","Service Games Won","men's","Rafael Nadal","When down 0-40","down","0_40","L",2,0.5,"1 to 2",1,1
+"2013 US Open","Service Games Won","men's","Rafael Nadal","Won 30-30 point","tied","30_30","W",23,1,"23 to 23",23,0
+"2013 US Open","Service Games Won","men's","Rafael Nadal","Lost 30-30 point","tied","30_30","L",8,0.75,"6 to 8",6,2
+"2013 US Open","Service Games Won","men's","Rafael Nadal","Won Deuce point","up","Deuce","W",26,0.846153846153846,"22 to 26",22,4
+"2013 US Open","Service Games Won","men's","Rafael Nadal","Lost Deuce point","down","Deuce","L",5,0.6,"3 to 5",3,2
+"2013 US Open","Service Games Won","men's","Roger Federer","When up 15-0","up","15_0","W",39,0.948717948717949,"37 to 39",37,2
+"2013 US Open","Service Games Won","men's","Roger Federer","When up 30-0","up","30_0","W",29,1,"29 to 29",29,0
+"2013 US Open","Service Games Won","men's","Roger Federer","When down 0-15","down","0_15","L",15,0.733333333333333,"11 to 15",11,4
+"2013 US Open","Service Games Won","men's","Roger Federer","When down 0-30","down","0_30","L",4,0,"0 to 4",0,4
+"2013 US Open","Service Games Won","men's","Roger Federer","When down 0-40","down","0_40","L",3,0,"0 to 3",0,3
+"2013 US Open","Service Games Won","men's","Roger Federer","Won 30-30 point","tied","30_30","W",11,1,"11 to 11",11,0
+"2013 US Open","Service Games Won","men's","Roger Federer","Lost 30-30 point","tied","30_30","L",4,0.75,"3 to 4",3,1
+"2013 US Open","Service Games Won","men's","Roger Federer","Won Deuce point","up","Deuce","W",10,0.9,"9 to 10",9,1
+"2013 US Open","Service Games Won","men's","Roger Federer","Lost Deuce point","down","Deuce","L",4,0,"0 to 4",0,4
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","When up 15-0","up","15_0","W",2792,0.866045845272206,"2418 to 2792",2418,374
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","When up 30-0","up","30_0","W",1709,0.943826799297835,"1613 to 1709",1613,96
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","When down 0-15","down","0_15","L",1671,0.58886894075404,"984 to 1671",984,687
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","When down 0-30","down","0_30","L",661,0.384266263237519,"254 to 661",254,407
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","When down 0-40","down","0_40","L",260,0.15,"39 to 260",39,221
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","Won 30-30 point","tied","30_30","W",860,0.881395348837209,"758 to 860",758,102
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","Lost 30-30 point","tied","30_30","L",546,0.419413919413919,"229 to 546",229,317
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","Won Deuce point","up","Deuce","W",1222,0.877250409165303,"1072 to 1222",1072,150
+"2013 US Open","Service Games Won","men's","Men's Tournament Average","Lost Deuce point","down","Deuce","L",815,0.413496932515337,"337 to 815",337,478
