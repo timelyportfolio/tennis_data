@@ -526,7 +526,7 @@ var chart1b3c520123f = (function() {
   function highlightSuffer(){
     chart1b3c520123f[0].series[0].shapes.each(function(d){
       var that = this;
-      if(d.cValue < 0.5){
+      if(d.cValue < 0.5 && d.y.search("Men's") < 0 ){
         d3.select(that).transition().style("stroke-width",4)
       }
     })
